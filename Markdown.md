@@ -6,7 +6,7 @@
 
 ### 常用语法介绍
 
-* 标题	
+####  标题	
 		
 		# 			header1
 		## 			header2
@@ -27,7 +27,7 @@
 ******* 
 <br>
 
-* 列表
+####  列表
 		
 		无序表 (*, +, -)
 		* 1
@@ -57,12 +57,10 @@
 <br>
 
 
-* 引用
+####  引用
 
 	如果你需要引用一小段别处的句子，那么就要用引用的格式。
-
-
-		> 引用文字
+	> 引用文字
 
 
 示例
@@ -72,7 +70,7 @@
 ****
 <br>
 
-* 文字块
+#### 文字块
 
 		文字块 使用 2个 tab 键并换行
 		
@@ -83,7 +81,7 @@
 ****
 <br>
 		
-* 代码块
+#### 代码块
 		
 		代码块 (```语言 代码 ```)
 		
@@ -91,8 +89,17 @@
 		代码
 		```
 
-示例
+示例 
 *****	
+>\`\`\`Swift
+>
+> import Foundation
+> 
+> var customerInline  = ["Chris", "Ewa", "Elex", "Alex", "Barry", "Daniel"]
+>
+> ....
+>  
+> \`\`\`
 
 ```Swift
 import Foundation
@@ -106,10 +113,42 @@ func seve(customer customerProvider: () -> String) {
 }
 // 自动闭包
 func serve(customer customerProvider: @autoclosure () -> String) {
-   	print("Now serving \(customerPovider())")
+	print("Now serving \(customerPovider())")
 }
 
 func server(customer customerProvider: String) {
 	print("Now serving \(customerProvider)")
 }
 ```
+*****	
+<br>
+
+#### 插入图片
+	插图格式: ![名称](图片地址)
+	
+示例 
+*****	
+> \!\[百度logo](https://www.baidu.com/img/bd_logo1.png)
+> ![百度logo](https://www.baidu.com/img/bd_logo1.png)
+
+*****	
+<br>
+
+
+#### 连接地址
+	插图格式: ![名称](图片地址)
+	
+示例 
+*****	
+> \!\[百度logo](https://www.baidu.com/img/bd_logo1.png)
+> ![百度logo](https://www.baidu.com/img/bd_logo1.png)
+
+*****	
+<br>
+
+
+
+
+
+
+
