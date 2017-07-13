@@ -135,20 +135,51 @@ func server(customer customerProvider: String) {
 <br>
 
 
-#### 连接地址
-	插图格式: ![名称](图片地址)
+#### 链接地址
+	文字链接: [名称](链接网址)
+	图片链接: [![名称](图片地址)](链接网址)
 	
 示例 
 *****	
-> \!\[百度logo](https://www.baidu.com/img/bd_logo1.png)
-> ![百度logo](https://www.baidu.com/img/bd_logo1.png)
+> 文字链接&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[百度](https://www.baidu.com)
+> 
+> [百度](https://www.baidu.com)
+>
+> 图片链接&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\[\![百度]\(www.baidu.com/img/bd_logo1.png)](https://www.baidu.com)
+> [![百度](https://www.baidu.com/img/bd_logo1.png)](https://www.baidu.com)
 
 *****	
 <br>
 
+#### 粗体
+	粗体 **文字**
+	
+示例 
+*****	
+> 我的名字叫 **小明**
 
+*****	
+<br>
 
+#### 斜体
+	斜体 *文字*
+	
+示例 
+*****	
+> 我的名字叫 *小明*
 
+*****	
+<br>
 
+#### 分割线
+	-- 实线
+	***
 
+<span style="border-bottom:2px dashed yellow;">所添加的需要加下划线的行内文字</span>
 
+示例
+*****	
+--
+
+***
+<br>
