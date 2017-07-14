@@ -172,14 +172,26 @@ func server(customer customerProvider: String) {
 <br>
 
 #### 分割线
-	-- 实线
 	***
-
-<span style="border-bottom:2px dashed yellow;">所添加的需要加下划线的行内文字</span>
 
 示例
 *****	
----
+>	***
 
 ***
 <br>
+
+
+#### 删除线
+	
+	~~文字~~
+
+示例
+*****	
+~文字~
+
+***
+<br>
+
+
+~~文字删除线~~
